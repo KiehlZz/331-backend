@@ -1,4 +1,4 @@
-package se331.lab.entity;
+package se331.lab.rest.entity;
 
 import lombok.Builder;
 import lombok.Data;
@@ -13,6 +13,6 @@ public class Event {
     String location;
     String date;
     String time;
-    String petAllowed;
+    Boolean petAllowed;
     String organizer;
 }
